@@ -1,4 +1,39 @@
 body {
-    background: #333;
+    background-color: #f2b701;
+}
+
+h1, h2 {
+    font-family: 'Sriracha', cursive;
+}
+
+.hero {
+    background-image: url(/img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 950px;
+    &__welcome {
+        margin-top:50px;
+    }
+}
+
+// Bootstrap customization
+
+$theme-colors: (
+  "danger": #dc2a4c
+);
+
+.container {
+    border-right: 1px solid #e2a301;
+    border-left: 1px solid #e2a301;
+    background-color: #fffae9;
+}
+
+.nav-link {
     color: #fff;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.display-4 {
+    line-height: 1;
 }
