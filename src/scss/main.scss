@@ -6,27 +6,19 @@ h1, h2 {
     font-family: 'Sriracha', cursive;
 }
 
+.wrapper {
+    max-width:1440px;
+    width: 100%;
+    margin: auto;
+    background-color: #fffae9;
+    min-height: 100vh;
+}
+
 .hero {
-    background-image: url(/img/bg-header.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 950px;
-    &__welcome {
-        margin-top:50px;
-    }
+    background-color: #fbc500;
 }
 
 // Bootstrap customization
-
-$theme-colors: (
-  "danger": #dc2a4c
-);
-
-.container {
-    border-right: 1px solid #e2a301;
-    border-left: 1px solid #e2a301;
-    background-color: #fffae9;
-}
 
 .nav-link {
     color: #fff;

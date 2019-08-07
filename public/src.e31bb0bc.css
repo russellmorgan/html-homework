@@ -11,18 +11,15 @@ body {
 h1, h2 {
   font-family: 'Sriracha', cursive; }
 
-.hero {
-  background-image: url(/bg-header.28ba781d.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  height: 950px; }
-  .hero__welcome {
-    margin-top: 50px; }
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  background-color: #fffae9;
+  min-height: 100vh; }
 
-.container {
-  border-right: 1px solid #e2a301;
-  border-left: 1px solid #e2a301;
-  background-color: #fffae9; }
+.hero {
+  background-color: #fbc500; }
 
 .nav-link {
   color: #fff;
